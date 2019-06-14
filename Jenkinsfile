@@ -27,7 +27,6 @@ pipeline {
                 }
             }
         }
-    }
     stage('Deliver') {
             agent {
                 docker {
@@ -43,4 +42,5 @@ pipeline {
                 }
             }
         }
+    }
 }
